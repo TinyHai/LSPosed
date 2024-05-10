@@ -7,6 +7,10 @@ import android.os.IBinder;
 import android.os.PersistableBundle;
 
 public final class ActivityThread {
+    public static boolean isSystem() {
+        throw new UnsupportedOperationException("STUB");
+    }
+    
     public static ActivityThread currentActivityThread() {
         throw new UnsupportedOperationException("STUB");
     }
